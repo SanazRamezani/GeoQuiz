@@ -6,6 +6,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var trueButton: Button
@@ -63,4 +64,11 @@ class MainActivity : AppCompatActivity() {
         }
         Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show()
     }
+
+    /*private fun makeToast(message: String) {
+        var toast = Toast.makeText(this, message, Toast.LENGTH_SHORT)
+        toast.setGravity(Gravity.TOP, 0 , 0)
+        toast.show()
+    }*/
 }
+
